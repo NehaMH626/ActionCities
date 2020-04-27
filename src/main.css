@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 50%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.search-input {
+  padding: 1vh 1vw 1vh 1vw;
+  border-radius: 5px;
+  width: 100%;
+}
+.float-right {
+  float: right !important;
+  display: flex;
+}
+.data-section {
+  /* display: table; */
+  /* margin: 10vh 10vw 10vh 10vw; */
+}
+.city-data {
+  background-color: #e7e5e5;
+  height: 20vh;
+  /* width: 20vw; */
+  border: 1px solid #e1dfdf;
+  /* margin: 20px; */
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.img-icon {
+  width: 65px;
+  height: 65px;
+  border-radius: 33%;
+  display: block;
+  margin: auto;
+}
